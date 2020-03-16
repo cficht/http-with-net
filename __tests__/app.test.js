@@ -9,4 +9,13 @@ describe('app routes', () => {
         expect(res.text).toEqual('hi');
       });
   });
+
+  it('posts to the echo route', () => {
+    return request(app)
+      .post('/echo')
+      .send('hi')
+      .then(res => {
+        expect(res.text).toEqual('hi');
+      });
+  });
 });
