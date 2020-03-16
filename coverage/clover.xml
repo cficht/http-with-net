@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1584397496912" clover="3.2.0">
-  <project timestamp="1584397496912" name="All files">
+<coverage generated="1584398525770" clover="3.2.0">
+  <project timestamp="1584398525770" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="2" methods="2" coveredmethods="2" elements="18" coveredelements="15" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="createResponse.js" path="/Users/Fitch/alchemy/career-track/http-with-net/lib/utils/createResponse.js">
       <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="cond" truecount="0" falsecount="3"/>
+      <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
     </file>
     <file name="parseRequest.js" path="/Users/Fitch/alchemy/career-track/http-with-net/lib/utils/parseRequest.js">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
