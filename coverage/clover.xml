@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1584405898002" clover="3.2.0">
+  <project timestamp="1584405898002" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="25" coveredconditionals="22" methods="4" coveredmethods="4" elements="58" coveredelements="55" complexity="0" loc="29" ncloc="29" packages="2" files="3" classes="3"/>
+    <package name="lib">
+      <metrics statements="18" coveredstatements="18" conditionals="20" coveredconditionals="20" methods="2" coveredmethods="2"/>
+      <file name="app.js" path="/Users/Fitch/alchemy/career-track/http-with-net/lib/app.js">
+        <metrics statements="18" coveredstatements="18" conditionals="20" coveredconditionals="20" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.utils">
+      <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="createResponse.js" path="/Users/Fitch/alchemy/career-track/http-with-net/lib/utils/createResponse.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="cond" truecount="0" falsecount="3"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+      </file>
+      <file name="parseRequest.js" path="/Users/Fitch/alchemy/career-track/http-with-net/lib/utils/parseRequest.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="5" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
