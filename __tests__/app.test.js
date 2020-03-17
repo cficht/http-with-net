@@ -13,9 +13,9 @@ describe('app routes', () => {
   it('posts to the echo route', () => {
     return request(app)
       .post('/echo')
-      .send('hi')
+      .send('This route is working')
       .then(res => {
-        expect(res.text).toEqual('hi');
+        expect(res.text).toEqual('This route is working');
       });
   });
 
