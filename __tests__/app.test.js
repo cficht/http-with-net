@@ -18,4 +18,48 @@ describe('app routes', () => {
         expect(res.text).toEqual('hi');
       });
   });
+
+  it('retrieves the /red route', () => {
+    return request(app)
+      .get('/red')
+      .then(res => {
+        expect(res.text).toEqual(`<html>
+        <body>
+          <h1>Red</h1>
+        </body>
+      </html>`);
+      });
+  });
+
+  it('retrieves the /green route', () => {
+    return request(app)
+      .get('/green')
+      .then(res => {
+        expect(res.text).toEqual(`<html>
+        <body>
+          <h1>Green</h1>
+        </body>
+      </html>`);
+      });
+  });
+
+  it('retrieves the /blue route', () => {
+    return request(app)
+      .get('/blue')
+      .then(res => {
+        expect(res.text).toEqual(`<html>
+        <body>
+          <h1>Blue</h1>
+        </body>
+      </html>`);
+      });
+  });
+
+  it('404 test', () => {
+    return request(app)
+      .get('/wrong')
+      .then(res => {
+        expect(res.text).toEqual('Not Found');
+      });
+  });
 });
